@@ -1,0 +1,57 @@
+.movie-card {
+    width: 300px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0 0 15px 3px green;
+    position: relative;
+    transition: all ease .5s;
+
+    .card-rating {
+        position: absolute;
+        color: white;
+        top: 0;
+        right: 0;
+        background-color: rgb(50, 173, 70);
+        padding: 5px;
+        border-radius: 0px 0px 0px 10px;
+    }
+
+    .date {
+        color: white;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    &:hover {
+        transform: scale(1.1) translateY(40px);
+        
+        
+    }
+
+    img {
+        width: 100%;
+    
+    }
+}
+
+
+.card-bottom {
+    display: inline-block;
+    width: 260px;
+    margin-top: -10px;
+   
+   
+    
+    background-color: #01AD43;
+    padding: 20px;
+
+    .card-btn {
+        color: white;
+    }
+
+    .card-title {
+        color: white;
+    }
+}

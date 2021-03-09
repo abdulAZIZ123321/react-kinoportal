@@ -1,0 +1,11 @@
+.movie-card {
+  display: inline-block;
+}
+
+.card-bottom {
+  width: 200px;
+  height: 200px;
+  background-color: #01AD43;
+  padding: 20px;
+}
+/*# sourceMappingURL=MovieCard.css.map */
